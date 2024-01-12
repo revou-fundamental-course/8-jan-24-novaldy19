@@ -38,11 +38,13 @@ header p {
 
 #squareSide{
     margin-top: 10px;
-    width: 50%;
+    width: 25%;
     outline: none;
     border-radius: 10px;
     border: solid #687EFF;
     padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #squareSide:focus{
