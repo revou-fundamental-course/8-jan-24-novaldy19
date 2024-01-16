@@ -3,14 +3,20 @@ body{
     background-color: #FAE7C9;
 }
 
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
 header{
     text-align: center;
     color: #706233;
     
 }
 
-header h1{
+h1{
     color: #776B5D;
+    margin: 0px;
 
 }
 
@@ -20,19 +26,41 @@ header h4{
     color: #776B5D;
 }
 
-header p {
-    margin-top: -15px;
+p {
+    margin-top:-15px;
     font-size: small;
     color: #706233;
     margin-bottom: 20px;
 }
 
+img{
+    max-width: 65%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
 
-.inputSection{
-    margin-top: 50px;
+
+.calculator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
     text-align: center;
+}
+
+input{
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 20px;
 }
 
 
@@ -42,13 +70,18 @@ header p {
     outline: none;
     border-radius: 10px;
     border: solid #687EFF;
-    padding: 10px;
+    padding: 5px;
     margin-right: auto;
     margin-left: auto;
 }
 
 #squareSide:focus{
     border: solid #706233;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 button{
@@ -58,6 +91,7 @@ button{
     border-radius: 10px;
     padding: 5px 10px;
     cursor: pointer;
+    margin-right: 10px;
 }
 
 
@@ -68,4 +102,13 @@ button:hover{
 button:active{
     background-color: #3a3112;
     transform: translateY(2px);
+}
+
+.result{
+    font-weight: bold;
+    text-align: left;
+}
+
+strong {
+    font-weight: bold;
 }
